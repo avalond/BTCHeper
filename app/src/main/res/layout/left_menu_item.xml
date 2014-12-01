@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10" >
+
+        <ImageView
+            android:id="@+id/iv_left_menu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <RelativeLayout
+            android:id="@+id/rl_right_left_menu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/iv_right_left_menu_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/tv_right_left_menu_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="cc"
+                android:textColor="@color/argb_ffffff"
+                android:textSize="@dimen/sp_16" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@id/iv_left_menu_item"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_centerVertical="true"
+            >
+
+            <TextView
+                android:id="@+id/tv_left_menu_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sssss"
+                android:textColor="@color/argb_ffffff"
+                android:textSize="@dimen/sp_20" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/argb_ffffff" />
+
+</LinearLayout>

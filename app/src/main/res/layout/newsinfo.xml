@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/top_newsinfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menu_bg09" >
+
+        <LinearLayout
+            android:id="@+id/left_newsinfo_top"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true" >
+
+            <Button
+                android:id="@+id/btn_newsinfo_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:background="@drawable/btn_newsinfo_selector"
+                android:paddingLeft="@dimen/dp_8"
+                android:text="@string/_back_text"
+                android:textColor="@color/argb_ffffff"
+                android:textSize="@dimen/sp_18" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right_newsinfo_top"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/share_btn_top"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/share_btn_selector"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:text="@string/_share_text"
+                android:textColor="@color/argb_ffffff"
+                android:textSize="@dimen/sp_18" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/center_newsinfo_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/right_newsinfo_top"
+            android:layout_toRightOf="@id/left_newsinfo_top"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/title_newsinfo_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:singleLine="true"
+                android:text="@string/bitstamp"
+                android:textColor="@color/argb_ffffff"
+                android:textSize="@dimen/sp_18" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_newsinfo" >
+
+        <TextView
+            android:id="@+id/news_title_newsinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:minHeight="@dimen/dp_40"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10"
+            android:singleLine="false"
+            android:text="as"
+            android:textColor="@color/argb_000000"
+            android:textSize="@dimen/sp_18" />
+        <WebView
+            android:id="@+id/wv_newsinfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/dp_6"
+            android:paddingRight="@dimen/dp_6"
+            android:layout_below="@id/news_title_newsinfo"
+            android:minHeight="@dimen/dp_220" />
+    </RelativeLayout>
+
+</RelativeLayout>

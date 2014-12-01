@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/top_fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menu_bg09">
+
+        <LinearLayout
+            android:id="@+id/left_fragment3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/iv_rl3_top"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fragment3_main"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/platform_fragment3_main"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/_news_text"
+                android:textColor="@color/argb_ffffff"
+                android:textSize="@dimen/sp_18" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/top_fragment3"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/index_fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/_index_news_text"
+            android:textColor="@drawable/textcolor_radiobtn_fragment2" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/argb_blue_low" />
+
+        <RadioButton
+            android:id="@+id/news_fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/_new_text"
+            android:textColor="@drawable/textcolor_radiobtn_fragment2" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/argb_blue_low" />
+
+        <RadioButton
+            android:id="@+id/transaction_fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/_transaction_text"
+            android:textColor="@drawable/textcolor_radiobtn_fragment2" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/argb_blue_low" />
+
+        <RadioButton
+            android:id="@+id/something_fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/_something_text"
+            android:textColor="@drawable/textcolor_radiobtn_fragment2" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/argb_blue_low" />
+
+        <RadioButton
+            android:id="@+id/analyze_fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/_analyze_text"
+            android:textColor="@drawable/textcolor_radiobtn_fragment2" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="match_parent"
+            android:background="@color/argb_blue_low" />
+
+        <RadioButton
+            android:id="@+id/mining_fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/_mining_text"
+            android:textColor="@drawable/textcolor_radiobtn_fragment2" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/radiogroup_fragment3">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_fragment3_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+      <!--  <ProgressBar
+            android:id="@+id/pb_fragment3_main"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />-->
+    </RelativeLayout>
+
+</RelativeLayout>

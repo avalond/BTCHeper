@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/btn_page_navigation"
+        android:layout_width="@dimen/dp_180"
+        android:layout_height="@dimen/dp_50"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_50"
+        android:background="@drawable/btn_simple_selector"
+        android:text="@string/_text_btn_navigation"
+        android:textColor="@color/argb_ffffff"
+        android:visibility="invisible" />
+
+</RelativeLayout>

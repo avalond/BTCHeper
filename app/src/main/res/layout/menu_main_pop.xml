@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_layout_menu_pop"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ll_exit_menu_pop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/menu_pop_selector" >
+
+        <com.ruitu.btchelper.weight.MyTextView
+            android:id="@+id/exit_menu_pop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/menu_pop_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/tc"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="@string/menu_exitprocess"
+            android:textColor="@drawable/textcolor_menu_selector"
+            android:textSize="@dimen/sp_20" >
+        </com.ruitu.btchelper.weight.MyTextView>
+        <!--
+             <RadioButton
+            android:id="@+id/exit_menu_pop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/radio_check_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/tc"
+            android:focusable="false"
+            android:text="@string/menu_exitprocess"
+            android:textColor="@drawable/textcolor_menu_selector"
+            android:textSize="@dimen/sp_20" />        -->
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="#91E4FF" />
+
+    <RelativeLayout
+        android:id="@+id/ll_runinbackground_menu_pop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/menu_pop_selector" >
+
+        <com.ruitu.btchelper.weight.MyTextView
+            android:id="@+id/runinbackground_menu_pop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/menu_pop_selector"
+            android:button="@null"
+            android:drawableLeft="@drawable/ht"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="@string/menu_runinbackground"
+            android:textColor="@drawable/textcolor_menu_selector"
+            android:textSize="@dimen/sp_20" >
+        </com.ruitu.btchelper.weight.MyTextView>
+    </RelativeLayout>
+
+</LinearLayout>

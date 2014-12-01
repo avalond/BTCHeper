@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">比特币助手</string>
+    <string name="ticker">实时行情</string>
+    <string name="depth">市场深度</string>
+    <string name="news">新闻资讯</string>
+    <string name="sys_setting">系统设置</string>
+    <string name="bitstamp">Bitstamp</string>
+    <string name="txt_refresh">更新于 :</string>
+    <string name="txt_platform_setting">平台设置</string>
+    <string name="txt_platform">交易平台</string>
+    <string name="txt_lastbusiness">最近成交</string>
+    <string name="txt_lastbusiness_price">最近成交价 :</string>
+    <string name="txt_buyone">买一价</string>
+    <string name="txt_sellone">卖一价</string>
+    <string name="txt_businesscount">成交量</string>
+    <string name="txt_detail">委单量</string>
+    <string name="txt_buyprice">买入价</string>
+    <string name="txt_sellprice">卖出价</string>
+    <string name="k_text">K线图</string>
+    <string name="txt_businesstime">成交时间</string>
+    <string name="txt_businessprice">成交价</string>
+    <string name="txt_businessamount">成交量</string>
+    <string name="txt_detailinfo">委托信息</string>
+    <string name="txt_lastbus2">最近成交</string>
+    <string name="menu_exitprocess">退出程序</string>
+    <string name="menu_runinbackground">后台运行</string>
+
+    <string-array name="time_arr">
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
+    </string-array>
+    <string-array name="default_platform_name">
+        <item>btcTrade</item>
+        <item>比特币中国</item>
+        <item>火币网</item>
+        <item>比特币时代</item>
+    </string-array>
+    <string-array name="platform_name">
+        <item>Bitstamp</item>
+        <item>btcTrade</item>
+        <item>比特币中国</item>
+        <item>火币网</item>
+        <item>OKCoin</item>
+        <item>796期货</item>
+        <item>比特儿</item>
+        <item>比特币时代</item>
+    </string-array>
+    <string-array name="platform_chart">
+        <item>bitstamp</item>
+        <item>btctrade</item>
+        <item>btcchina</item>
+        <item>huobi</item>
+        <item>okcoin</item>
+        <item>796future</item>
+        <item>bter</item>
+        <item>btc38</item>
+    </string-array>
+
+    <integer-array name="platform_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+
+    <string-array name="ticker_menu_arr">
+        <item>价格预警</item>
+        <item>价格详情</item>
+        <item>打开网站</item>
+    </string-array>
+    <string-array name="sys_text_arr">
+        <item>预警铃声</item>
+        <item>实时详情刷新间隔</item>
+        <item>市场深度刷新间隔</item>
+        <item>使用帮助</item>
+        <item>检查更新</item>
+        <item>关于比特币助手</item>
+    </string-array>
+    <string-array name="left_menu_arr">
+        <item>预警铃声</item>
+        <item>实时详情刷新间隔</item>
+        <item>市场深度刷新间隔</item>
+        <item>使用帮助</item>
+        <item>检查更新</item>
+        <item>个人中心</item>
+        <item>关于比特币助手</item>
+    </string-array>
+    <string-array name="alarm_arr">
+        <item>电话佛咒</item>
+        <item>逝去感情如何留得住</item>
+        <item>卧薪尝胆</item>
+        <item>sheldon bongos</item>
+        <item>Bazinga ringtone</item>
+        <item>忐忑</item>
+    </string-array>
+
+    <string name="update_text">更新于 13:59:00</string>
+    <string name="_warn_text">价格预警</string>
+    <string name="_offer_info">价格详情</string>
+    <string name="_opennet_text">打开网站</string>
+    <string name="_monitor_text">是否监控 : </string>
+    <string name="_alarm_text">是否响铃 : </string>
+    <string name="_shake_text">是否震动 : </string>
+    <string name="_low_text">最低价 : </string>
+    <string name="_high_text">最高价 : </string>
+    <string name="_last_text">最近成交价 : </string>
+    <string name="_buy_one_text">买一价 : </string>
+    <string name="_sell_one_text">买一价 : </string>
+    <string name="_volume_one_text">成交量 : </string>
+    <string name="_update_text">更新时间 : </string>
+    <string name="_warn_readme_text">说明：当最新成交价低于或等于最低价，高于或等于最高价时会发出警告。</string>
+    <string name="not_wifi_warn_text">您现在使用的是2G/3G/4G网络，刷新将消耗大量流量，是否继续?</string>
+    <string name="no_net_for_service">网络连接异常...</string>
+    <string name="yes_text">是</string>
+    <string name="no_text">否</string>
+    <string name="_close_text">关闭</string>
+    <string name="ok_text">确定</string>
+    <string name="_save_text">保存</string>
+    <string name="no_data">没有数据</string>
+    <string name="not_text">提示</string>
+    <string name="diff_not_null">请输入正确的值！！</string>
+    <string name="cancel_download_text">您确定要取消下载更新吗？下次更新需要重新下载！！</string>
+    <string name="not_select_platform">您没有选择任何平台！！</string>
+    <string name="cant_back_cost_text">您的计算力太不给力了，在当前的难度下，您的收入都不够你交电费，建议您加大你的计算力！！</string>
+    <string name="not_login">亲，您还没登录，立即登录吗？</string>
+    <string name="username_is_null">用户名不能为空！！</string>
+    <string name="userpass_is_null">密码不能为空！！</string>
+    <string name="username_is_not">用户名不存在</string>
+    <string name="userpass_is_wrong">密码错误</string>
+    <string name="login_success">恭喜您，登录成功！</string>
+    <string name="register_success">恭喜您，注册成功，是否跳转至登录界面？</string>
+    <string name="feedback_success">谢谢您的宝贵建议，请多多关注我们！！</string>
+    <string name="feedback_failed">您的建议不能上传给我们，请检查网络！！</string>
+    <string name="email_is_null">亲，您的邮箱还没填写呢！！</string>
+    <string name="email_is_illage">亲，您填的是邮箱吗？</string>
+    <string name="info_is_null">亲，你总得说点什么吧！！</string>
+    <string name="_text_btn_navigation">立即体验吧</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="txt_marketinterval" translatable="false">行情刷新间隔</string>
+    <string name="txt_deepinterval">深度刷新间隔</string>
+    <string name="txt_noteprice">通知栏显示价格</string>
+    <string name="txt_warning">预警震动</string>
+    <string name="txt_help">帮助</string>
+    <string name="txt_checkupdate">检查更新</string>
+    <string name="loadfail_toast">加载失败,网络连接异常.</string>
+    <string name="load_teu_toast">没有连接网络</string>
+    <string name="txt_about">关于</string>
+    <string name="_close_warn_text">关闭本次预警铃声</string>
+    <string name="_clear_warn_text">关闭价格预警</string>
+    <string name="_news_text">新闻资讯</string>
+    <string name="_index_news_text">首页</string>
+    <string name="_transaction_text">交易</string>
+    <string name="_something_text">百科</string>
+    <string name="_analyze_text">分析</string>
+    <string name="_mining_text">挖矿</string>
+    <string name="_back_text">返回</string>
+    <string name="_share_text">分享</string>
+    <string name="_new_text">新闻</string>
+    <string name="_syssetting_text">系统设置</string>
+    <string name="_cancel_text">取消</string>
+    <string name="update_text1">软件版本更新</string>
+    <string name="download_text">下载</string>
+    <string name="undownload_text">以后再说</string>
+    <string name="user_cancel">注销</string>
+    <string name="cancel_text">取消</string>
+    <string name="user_cancel_success">注销成功！！</string>
+    <string name="_btc_about">关于BTC助手</string>
+    <string name="_tengxun_bolog_text">腾讯QQ：421172708</string>
+    <string name="_xina_bolog_text">反馈邮箱：13038580579@163.com</string>
+    <string name="_net_address">官方网站：www.btcoinhelp.com</string>
+    <string name="_souhu_bolog_text">搜狐微博：比特币助手Helper</string>
+    <string name="_weixin_text">微信公众号：比特币助手Helper</string>
+    <string name="_about_btc_readme"> 比特币助手是华英集团公司旗下的一款手机软件，致力于提供最新最全的比特币交易行情、比特币新闻资讯以及比特币相关资料等服务。你还可以通过以下渠道与我们一同关注比特币。</string>
+    <string name="_curr_version_text">当前版本号：5.0</string>
+    <string name="_help_title_text">使用帮助</string>
+    <string name="_say_to_us">反馈</string>
+    <string name="_more_Text">查看更多</string>
+    <string name="_loading_text">加载中...</string>
+    <string name="_dataloading_text1">数据加载中。。。</string>
+    <string name="_feedlood_text">意见反馈</string>
+    <string name="_submit_text">提交</string>
+    <string name="_email_text">联系邮箱</string>
+    <string name="_yijian_text">你的宝贵意见</string>
+    <string name="_user_register_text">用户注册</string>
+    <string name="_username_tv_register">用户名</string>
+    <string name="_input_username">输入用户名</string>
+    <string name="_useremial_text">邮     箱</string>
+    <string name="userpass_hint">密      码</string>
+    <string name="_register_btn_text">注册</string>
+    <string name="_userpass_text">密    码</string>
+    <string name="_third_text">第三方登录</string>
+    <string name="_user_login_text">用户登录</string>
+    <string name="_login_btn_text">登录</string>
+    <string name="_back_time_text">回本时间</string>
+    <string name="_teu_info_text">挖矿收益表</string>
+    <string name="_voluem_text">成交量</string>
+    <string name="_price_text_page2">成交价</string>
+    <string name="_transaction_time">成交时间</string>
+    <string name="_month_text">日期</string>
+    <string name="_diff_text">当日难度</string>
+    <string name="_block_text">每个block耗时(天)</string>
+    <string name="_month_income_text">当日收入</string>
+    <string name="_month_count_text">当日利润</string>
+    <string name="_count_income_text">累计收益</string>
+    <string name="_btn_goto_cal_btn_text">算力计算</string>
+    <string name="_xinhua">*</string>
+    <string name="_hint_text1">请输入正确的值,只能包括数字和一个小数点</string>
+    <string name="_hint_text2">带*号的必须输入正确的值(只能包括数字和一个小数点)</string>
+    <string name="_sum_cost">总成本</string>
+    <string name="_max_cost_text">最大收益</string>
+    <string name="_20_text">20</string>
+    <string name="_teu_title_text">比特币挖矿收益计算器</string>
+    <string name="_teu_diff_tex">计算难度</string>
+    <string name="_diff_add_text">难度增幅(%)</string>
+    <string name="_gh_s_text">计算力(GH/s)</string>
+    <string name="_w_text">功耗(w)</string>
+    <string name="_kwh_text">电费(￥/kWh)</string>
+    <string name="_free_text">矿池手续费%</string>
+    <string name="_dev_cost_text">设备成本(￥)</string>
+    <string name="_other_cost">其他成本(￥)</string>
+    <string name="_start_date_text">开始挖矿日期</string>
+    <string name="_btc_price_text">人民币汇率</string>
+    <string name="_js_text">计算</string>
+    <string name="_add_date_text">调整周期(天)</string>
+    <string name="_11_text">11</string>
+    <string name="_begin_mining_date_text">开始挖矿日期</string>
+    <string name="_elec_text">每日电费</string>
+    <string name="_100_text">100</string>
+    <string name="_look_more">查看更多</string>
+    <string name="_text_yincang">隐藏</string>
+    <string name="_0_6_text">0.6</string>
+    <string name="_dev_startdate">到货日期</string>
+    <string name="_dev_stopdate">截止日期</string>
+
+</resources>

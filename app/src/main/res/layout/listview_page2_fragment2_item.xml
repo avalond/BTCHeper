@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+    <TextView
+        android:id="@+id/tv_trans_time"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dp_20"
+        android:layout_weight="1.0"
+        android:background="#ffcccccc"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/argb_text"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/tv_trans_price"
+        android:layout_width="0.0dip"
+        android:minHeight="@dimen/dp_20"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="#ffcccccc"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/argb_text"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/tv_trans_amount"
+        android:layout_width="0.0dip"
+        android:minHeight="@dimen/dp_20"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/argb_text"
+        android:textSize="@dimen/sp_14" />
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <View
+            android:id="@+id/v_trans_amount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/point_green_bg"/>
+
+        <View
+            android:id="@+id/v_trans_amount_empty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

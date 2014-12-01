@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/top_fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/menu_bg09" >
+
+        <LinearLayout
+            android:id="@+id/left_fragment1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true" >
+
+            <ImageButton
+                android:id="@+id/iv_rl_top_fragment1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right_fragment1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/setting_btn_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/dp_10"
+                android:background="@drawable/btn_top_selector"
+                android:text="@string/txt_platform_setting"
+                android:textColor="@color/argb_ffffff"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/right_fragment1"
+            android:layout_toRightOf="@id/left_fragment1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ProgressBar
+                android:id="@+id/pb_fragment1_main"
+                style="@android:style/Widget.ProgressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/updatetime_tv_top"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/update_text"
+                android:textColor="@color/argb_ffffff"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/news_fragment1_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_100"
+        android:layout_below="@id/top_fragment1"
+        android:background="@color/argb_ffffff" >
+
+        <ImageView
+            android:id="@+id/vp_fragment1_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:id="@+id/rl_fragment1_main_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_news_text"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_fragment1_vp_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingRight="@dimen/dp_20"
+                android:singleLine="true"
+                android:text="@string/_dataloading_text1"
+                android:textColor="@color/argb_ffffff"
+                android:textSize="@dimen/sp_18" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioGroup
+                    android:id="@+id/bottm_news_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp_8"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/dp_4" >
+
+                    <RadioButton
+                        android:id="@+id/btn1_fragment1_main"
+                        android:layout_width="@dimen/dp_10"
+                        android:layout_height="@dimen/dp_10"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:background="@drawable/radio_action_selector"
+                        android:button="@null"
+                        android:gravity="center" />
+
+                    <RadioButton
+                        android:id="@+id/btn2_fragment1_main"
+                        android:layout_width="@dimen/dp_10"
+                        android:layout_height="@dimen/dp_10"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:background="@drawable/radio_action_selector"
+                        android:button="@null"
+                        android:gravity="center" />
+
+                    <RadioButton
+                        android:id="@+id/btn3_fragment1_main"
+                        android:layout_width="@dimen/dp_10"
+                        android:layout_height="@dimen/dp_10"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:background="@drawable/radio_action_selector"
+                        android:button="@null"
+                        android:gravity="center" />
+
+                    <RadioButton
+                        android:id="@+id/btn4_fragment1_main"
+                        android:layout_width="@dimen/dp_10"
+                        android:layout_height="@dimen/dp_10"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:background="@drawable/radio_action_selector"
+                        android:button="@null"
+                        android:gravity="center" />
+                </RadioGroup>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/center_fragment1_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/news_fragment1_main"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/argb_bg"
+            android:minHeight="@dimen/dp_40"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv1_listview_itme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/txt_platform"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/tv2_listview_itme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/txt_lastbusiness"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/tv3_listview_itme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/txt_buyone"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/tv4_listview_itme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/txt_sellone"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/tv5_listview_itme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/txt_businesscount"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/argb_line" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.ruitu.btchelper.weight.MyListView
+                android:id="@+id/ticker_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:listSelector="@drawable/listview_selector" >
+            </com.ruitu.btchelper.weight.MyListView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+</RelativeLayout>

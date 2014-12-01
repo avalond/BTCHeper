@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/left_menu_main"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_menu_selector"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/aboutlogo"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:background="@color/argb_ffffff"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15"
+        >
+
+        <com.ruitu.btchelper.weight.MyListView
+            android:id="@+id/lv_left_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:listSelector="@drawable/left_menu_selector">
+        </com.ruitu.btchelper.weight.MyListView>
+    </LinearLayout>
+
+
+</LinearLayout>
